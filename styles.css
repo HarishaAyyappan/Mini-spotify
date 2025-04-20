@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .song {
+    background-color: #1db954;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .song:hover {
+    background-color: #17a04a;
+  }
+  
+  .now-playing {
+    margin-top: 30px;
+  }
+  
